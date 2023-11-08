@@ -3,10 +3,8 @@ import transformers
 import torch
 import sys
 
-model = "meta-llama/Llama-2-7b-chat-hf"
+model = "meta-llama/Llama-2-70b-chat-hf"
 access_token = sys.argv[1]
-
-print(access_token)
 
 # Define model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model, token=access_token)

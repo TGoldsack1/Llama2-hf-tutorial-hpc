@@ -1,4 +1,4 @@
 --find-links https://download.pytorch.org/whl/cu118
 torch
 transformers
-accelerate
+accelerate==0.20.3
